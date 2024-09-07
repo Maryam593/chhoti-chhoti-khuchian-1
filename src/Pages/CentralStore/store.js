@@ -4,7 +4,7 @@ import CalculatorReducer from "../Reducer/CalculatorReducer";
 
 
 const Reduxstore = createStore(
-   CalculatorReducer,
+   CalculatorReducer, 
    window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
 )
 

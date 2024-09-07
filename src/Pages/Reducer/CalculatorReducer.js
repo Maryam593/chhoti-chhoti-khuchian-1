@@ -38,7 +38,7 @@ const CalculatorReducer = (state = initialState, action) => {
                 ...state,
                 currentValue: state.num,
                 num: 0,
-                operator: '/',
+                operator : '/',
             };
         case 'MODULUS':
             return {

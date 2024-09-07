@@ -80,7 +80,7 @@
 
 // export default Calculator;
 
-import React from 'react';
+import react from "react"
 import { FaTimes } from 'react-icons/fa';
 import { Button } from '@mui/material';
 import { useDispatch, useSelector } from 'react-redux';
